@@ -53,6 +53,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"Valor especial double +∞ {xD}");
             Console.WriteLine($"Valor especial double −∞ {yD}");
             Console.WriteLine($"Valor especial double NaN {zD}");
+
+            Console.WriteLine("Overflow em unit é: " + $"{(uint) (eMax + 1)}");
         }
     }
 }
