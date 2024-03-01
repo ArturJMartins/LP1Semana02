@@ -26,6 +26,14 @@ namespace ValoresEspeciais
             decimal iMax = decimal.MaxValue;
             decimal iMin = decimal.MinValue;
 
+            float xF = float.PositiveInfinity;
+            float yF = float.NegativeInfinity;
+            float zF = float.NaN;
+
+            double xD = double.PositiveInfinity;
+            double yD = double.NegativeInfinity;
+            double zD = double.NaN;
+
 
 
             Console.WriteLine($"Valor máximo de short {aMax} / mínimo {aMin}");
@@ -38,6 +46,13 @@ namespace ValoresEspeciais
             Console.WriteLine($"Valor máximo de float {hMax} / mínimo {hMin}");
             Console.WriteLine($"Valor máximo de decimal {iMax} /" +
             $" mínimo {iMin}");
+
+            Console.WriteLine($"Valor especial float +∞ {xF}");
+            Console.WriteLine($"Valor especial float −∞ {yF}");
+            Console.WriteLine($"Valor especial float NaN {zF}");
+            Console.WriteLine($"Valor especial double +∞ {xD}");
+            Console.WriteLine($"Valor especial double −∞ {yD}");
+            Console.WriteLine($"Valor especial double NaN {zD}");
         }
     }
 }
