@@ -60,6 +60,9 @@ namespace ValoresEspeciais
              + $"{(float) (bMax + 1)}");
             Console.WriteLine("Overflow long em float: " 
             + $"{(float) (cMax + 1)}");
+
+            Console.WriteLine("Underflow int em float: "
+             + $"{(float) (bMin - 1)}");
         }
     }
 }
